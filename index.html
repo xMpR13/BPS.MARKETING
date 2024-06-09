@@ -6,154 +6,193 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" type="image/x-icon" href="/Assets/img/Index/logo-image.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="/Assets/css/index.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="About-us.html">About Us</a>
-      <a href="Contact-Us.html">Contact Us</a>
-      <a href="Online_Services.html">Our Services</a>
+  <header class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <a class="navbar-brand" href="#">
+        <img src="/Assets/img/Index/logo-image.png" alt="BPS Marketing Logo" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="About-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact-Us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Online_Services.html">Our Services</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
   
-  <div class="logo-container">
-    <img class="logo" src="/Assets/img/Index/logo-image.png" alt="BPS Marketing Logo">
+  <div class="container text-center my-5">
+    <img class="logo img-fluid" src="/Assets/img/Index/logo-image.png" alt="BPS Marketing Logo">
   </div>
 
-  <main>
-    <section class="intro">
-      <h1>BPS MARKETING (PTY LTD)</h1>
-      <h2>WE MAKE THE IMPOSSIBLE POSSIBLE</h2>
-      <p>BPS MARKETING PTY (LTD) is a global leader in digital and transportation services. Founded in 2021, the company has been committed to providing innovative technologies and integrated solutions for global operators, governments, and enterprises. The company is dedicated to enabling connectivity and trust everywhere, making life easier.</p>
+  <main class="container">
+    <section class="intro text-center mb-5">
+      <h1 class="display-4">BPS MARKETING (PTY LTD)</h1>
+      <h2 class="mb-4">WE MAKE THE IMPOSSIBLE POSSIBLE</h2>
+      <p class="lead">BPS MARKETING PTY (LTD) is a global leader in digital and transportation services. Founded in 2021, the company has been committed to providing innovative technologies and integrated solutions for global operators, governments, and enterprises. The company is dedicated to enabling connectivity and trust everywhere, making life easier.</p>
     </section>
 
-    <section class="services">
-
-        <table>
-            <tr>
-                <td>
-                    <div class="gallery">
-                        <a href="Graphic_designer.html" target="_blank">
-                          <img src="/Assets/img/Index/graphic.png" alt="Graphic Design">
-                          <div class="desc">
-                            <h3>GRAPHIC DESIGN</h3>
-                            <p>We bring creativity to life. Let's collaborate to make your brand stand out in the crowd.</p>
-                          </div>
-                        </a>
-                      </div>
-                </td>
-
-                <td>
-                    <div class="gallery">
-                        <a href="Online_Services.html" target="_blank">
-                          <img src="/Assets/img/Index/internet.png" alt="Online Services">
-                          <div class="desc">
-                            <h3>ONLINE SERVICES</h3>
-                            <p>Boost your business with our online services! We deliver solutions tailored to your needs.</p>
-                          </div>
-                        </a>
-                      </div>
-                </td>
-
-                <td>
-                    <div class="gallery">
-                        <a href="Transport.html" target="_blank">
-                          <img src="/Assets/img/Index/transportation.png" alt="Transportation">
-                          <div class="desc">
-                            <h3>TRANSPORTATION</h3>
-                            <p>We securely handle your bags, ensuring they reach your destination hassle-free.</p>
-                          </div>
-                        </a>
-                      </div>
-                </td>
-            </tr>
-        </table>
-      
-
-      
-
-      
-    </section>
-
-    <section class="team">
-      <h1>MEET YOUR CEO</h1>
-      <div class="card">
-        <img src="/Assets/img/Index/ceo.jpg" height="250px" alt="SEKOMANE KARABO" class="karabo">
-        <div class="container">
-          <h2>SEKOMANE KARABO</h2>
-          <p class="title">CEO</p>
-          <p class="describing">As a graphic designer, I am a visual storyteller with a passion for transforming ideas into captivating designs. With a keen eye for aesthetics and a commitment to delivering impactful visuals, I bring creativity to every project, from logos to marketing materials.</p>
-          <button class="button">Contact</button>
+    <section class="services text-center mb-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <a href="Graphic_designer.html">
+              <img src="/Assets/img/Index/graphic.png" class="card-img-top" alt="Graphic Design">
+              <div class="card-body">
+                <h3 class="card-title">GRAPHIC DESIGN</h3>
+                <p class="card-text">We bring creativity to life. Let's collaborate to make your brand stand out in the crowd.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <a href="Online_Services.html" >
+              <img src="/Assets/img/Index/internet.png" class="card-img-top" alt="Online Services">
+              <div class="card-body">
+                <h3 class="card-title">ONLINE SERVICES</h3>
+                <p class="card-text">Boost your business with our online services! We deliver solutions tailored to your needs.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <a href="Transport.html" >
+              <img src="/Assets/img/Index/transportation.png" class="card-img-top" alt="Transportation">
+              <div class="card-body">
+                <h3 class="card-title">TRANSPORTATION</h3>
+                <p class="card-text">We securely handle your bags, ensuring they reach your destination hassle-free.</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-      <p class="reviews">What customers say</p>
     </section>
 
-    <section class="testimonials" id="slideshow-container">
-      <div class="testimonial-slide">
-        <p class="testimonial">"Your creativity is truly outstanding! The way you brought my vision to life through your designs exceeded my expectations. Your talent as a graphic designer is truly remarkable."</p>
+    <section class="team text-center mb-5">
+      <h1 class="display-4 mb-4">MEET YOUR CEO</h1>
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="/Assets/img/Index/ceo.jpg" height="250px" alt="SEKOMANE KARABO" class="card-img-top">
+        <div class="card-body">
+          <h2 class="card-title">SEKOMANE KARABO</h2>
+          <p class="card-text title">CEO</p>
+          <p class="card-text describing">As a graphic designer, I am a visual storyteller with a passion for transforming ideas into captivating designs. With a keen eye for aesthetics and a commitment to delivering impactful visuals, I bring creativity to every project, from logos to marketing materials.</p>
+          <a href="Contact-Us.html" class="btn btn-primary">Contact</a>
+        </div>
       </div>
+      <p class="reviews mt-4">What customers say</p>
+    </section>
 
-      <div class="testimonial-slide">
-        <p class="testimonial">"I'm incredibly impressed with your attention to detail. The precision and thoughtfulness you put into every element of the design not only reflect your skill but also demonstrate your dedication to delivering top-notch service."</p>
-      </div>
-
-      <div class="testimonial-slide">
-        <p class="testimonial">"Prosper said Wryyyyyyyy🌚"</p>
-      </div>
-
-      <div class="testimonial-slide">
-        <p class="testimonial">"Your professionalism throughout the entire process made working with you a pleasure. From understanding my needs to delivering on time, your commitment to excellence in graphic design truly sets you apart. Thank you for providing such an exceptional service."</p>
+    <section class="testimonials mb-5" id="slideshow-container">
+      <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <div class="w-75">
+                <p class="testimonial">"Your creativity is truly outstanding! The way you brought my vision to life through your designs exceeded my expectations. Your talent as a graphic designer is truly remarkable."</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="w-75">
+                <p class="testimonial">"I'm incredibly impressed with your attention to detail. The precision and thoughtfulness you put into every element of the design not only reflect your skill but also demonstrate your dedication to delivering top-notch service."</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="w-75">
+                <p class="testimonial">"Prosper said Wryyyyyyyy🌚"</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="w-75">
+                <p class="testimonial">"Your professionalism throughout the entire process made working with you a pleasure. From understanding my needs to delivering on time, your commitment to excellence in graphic design truly sets you apart. Thank you for providing such an exceptional service."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </section>
 
-    <section class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28662.94825478953!2d28.1015634!3d-26.1032099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d539f33d86d%3A0xba9789de8bd1fbb3!2sAlexandra%2C%202014!5e0!3m2!1sen!2sza!4v1692541084806!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="map mb-5">
+      <div class="embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28662.94825478953!2d28.1015634!3d-26.1032099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d539f33d86d%3A0xba9789de8bd1fbb3!2sAlexandra%2C%202014!5e0!3m2!1sen!2sza!4v1692541084806!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <div class="footer-content">
-      <div class="section">
-        <h2>Contact Us</h2>
-        <div class="contact-info">
-          <img class="footer-icon" src="/Assets/img/Index/phone-call.png" alt="Phone Icon">
-          <p class="contact">(+27) 79 046 3747</p>
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <h2>Contact Us</h2>
+          <div class="contact-info">
+            <img class="footer-icon" src="/Assets/img/Index/phone-call.png" alt="Phone Icon">
+            <p class="contact">(+27) 79 046 3747</p>
+          </div>
+          <div class="contact-info">
+            <img class="footer-icon" src="/Assets/img/Index/mail.png" alt="Email Icon">
+            <p class="contact">sekomanekarabo@gmail.com</p>
+          </div>
         </div>
-        <div class="contact-info">
-          <img class="footer-icon" src="/Assets/img/Index/mail.png" alt="Email Icon">
-          <p class="contact">sekomanekarabo@gmail.com</p>
-        </div>
-      </div>
-      
-      <div class="section">
-        <h2>Connect with us</h2>
-        <div class="social-icons">
-          <a href="#" target="_blank"><img class="footer-icon" src="/Assets/img/Index/whatsapp.png"  alt="WhatsApp"></a>
-          <a href="#" target="_blank"><img class="footer-icon" src="/Assets/img/Index/twitter.png" alt="Twitter"></a>
-          <a href="#" target="_blank"><img class="footer-icon" src="/Assets/img/Index/instagram.png" alt="Instagram"></a>
-        </div>
-      </div>
 
-      <div class="section">
-        <h2>Quick Links</h2>
-        <div class="quick-links">
-          <a href="Bps_Marketing_Pty_Ltd.html">Home</a>
-          <a href="About-us.html">About Us</a>
-          <a href="#">Services</a>
-          <a href="Contact-Us.html">Contact</a>
+        <div class="col-md-3 mb-3">
+          <h2>Connect with us</h2>
+          <div class="social-icons">
+            <a href="#" target="_blank"><img class="footer-icon" src="/Assets/img/Index/whatsapp.png" alt="WhatsApp"></a>
+            <a href="#" target="_blank"><img class="footer-icon" src="/Assets/img/Index/twitter.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img class="footer-icon" src="/Assets/img/Index/instagram.png" alt="Instagram"></a>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <h2>Quick Links</h2>
+          <div class="quick-links">
+            <a href="Bps_Marketing_Pty_Ltd.html">Home</a>
+            <a href="About-us.html">About Us</a>
+            <a href="#">Services</a>
+            <a href="Contact-Us.html">Contact</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <h2>About Us</h2>
+          <p class="about-us">BPS Marketing Pty (Ltd) has been a global leader in digital and transportation services since its establishment in 2021. Committed to innovation, the company provides integrated solutions for global operators, governments, and enterprises. Dedicated to enhancing connectivity and trust, BPS Marketing simplifies life on a global scale.</p>
         </div>
       </div>
-
-      <div class="section">
-        <h2>About Us</h2>
-        <p class="about-us">BPS Marketing Pty (Ltd) has been a global leader in digital and transportation services since its establishment in 2021. Committed to innovation, the company provides integrated solutions for global operators, governments, and enterprises. Dedicated to enhancing connectivity and trust, BPS Marketing simplifies life on a global scale.</p>
-      </div>
+      <p class="text-center mt-4">&copy; BPS MARKETING (PTY LTD) - All Rights Reserved</p>
     </div>
-    <p class="all-right">&copy; BPS MARKETING (PTY LTD) - All Rights Reserved</p>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="/Assets/js/index.js"></script>
 </body>
 </html>

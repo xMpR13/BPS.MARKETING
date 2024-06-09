@@ -4,56 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="logo-image.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Assets/css/about-us.css">
+    <link rel="icon" type="image/x-icon" href="logo-image.png">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="Contact-Us.html">Contact Us</a>
-            <a href="#">Our Services</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">BPS Marketing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact-Us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Online_Services.html">Our Services</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     
-    <main>
+    <main class="container mt-5">
         <section class="about-section">
-            <h1>About Us</h1>
-            <p>Welcome to BPS MARKETING(PTY-LTD), a dynamic company founded in 2021 by the visionary Sekomane Karabo. At the core of our identity is a passion for innovation and creativity, driving us to excel in three key domains: Graphic Design, Online Services, and Transportation. In the realm of graphic design, we are more than creators; we are storytellers. Our designs transcend aesthetics, weaving narratives that leave a lasting impression. From compelling logos to visually stunning marketing materials, we are committed to transforming ideas into captivating visual experiences. In the ever-evolving digital landscape, our online services are designed to elevate your brand. Whether it's crafting user-friendly websites, implementing effective digital marketing strategies, or providing tailored online solutions, we ensure your online presence aligns seamlessly with your business goals. Establishing trust and reliability, our transportation services offer more than just a ride. Punctuality and safety are paramount as we seamlessly transport both individuals and their luggage to their destinations. Your journey, whether personal or business-related, is our commitment to comfort and efficiency. BPS MARKETING(PTY-LTD) Was Founded by Sekomane Karabo, our business reflects the vision of a forward-thinker committed to pushing boundaries. With a foundation rooted in excellence and a focus on customer satisfaction</p>
+            <h1 class="text-center">About Us</h1>
+            <p class="text-justify">Welcome to BPS MARKETING(PTY-LTD), a dynamic company founded in 2021 by the visionary Sekomane Karabo. At the core of our identity is a passion for innovation and creativity, driving us to excel in three key domains: Graphic Design, Online Services, and Transportation. In the realm of graphic design, we are more than creators; we are storytellers. Our designs transcend aesthetics, weaving narratives that leave a lasting impression. From compelling logos to visually stunning marketing materials, we are committed to transforming ideas into captivating visual experiences. In the ever-evolving digital landscape, our online services are designed to elevate your brand. Whether it's crafting user-friendly websites, implementing effective digital marketing strategies, or providing tailored online solutions, we ensure your online presence aligns seamlessly with your business goals. Establishing trust and reliability, our transportation services offer more than just a ride. Punctuality and safety are paramount as we seamlessly transport both individuals and their luggage to their destinations. Your journey, whether personal or business-related, is our commitment to comfort and efficiency. BPS MARKETING(PTY-LTD) Was Founded by Sekomane Karabo, our business reflects the vision of a forward-thinker committed to pushing boundaries. With a foundation rooted in excellence and a focus on customer satisfaction</p>
         </section>
         
-        <section class="contact-section">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <img class="footer-icon" src="/Assets/img/Index/phone-call.png" alt="Phone Icon">
+        <section class="contact-section mt-5">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="d-flex align-items-center justify-content-center mb-3">
+                <img class="footer-icon me-2" src="/Assets/img/Index/phone-call.png" alt="Phone Icon" width="20" height="20">
                 <p>(+27) 79 046 3747</p>
             </div>
-            <div class="contact-info">
-                <img class="footer-icon" src="/Assets/img/Index/mail.png" alt="Email Icon">
+            <div class="d-flex align-items-center justify-content-center">
+                <img class="footer-icon me-2" src="/Assets/img/Index/mail.png" alt="Email Icon" width="20" height="20">
                 <p>sekomanekarabo@gmail.com</p>
             </div>
         </section>
         
-        <section class="connect-section">
-            <h2>Connect with us</h2>
-            <div class="social-links">
-                <a href="#" target="_blank"><img class="social-icon" src="/Assets/img/Index/whatsapp.png" alt="WhatsApp"></a>
-                <a href="#" target="_blank"><img class="social-icon" src="/Assets/img/Index/twitter.png" alt="Twitter"></a>
-                <a href="#" target="_blank"><img class="social-icon" src="/Assets/img/Index/instagram.png" alt="Instagram"></a>
+        <section class="connect-section mt-5">
+            <h2 class="text-center">Connect with us</h2>
+            <div class="d-flex justify-content-center">
+                <a href="#" target="_blank" class="me-2"><img class="social-icon" src="/Assets/img/Index/whatsapp.png" alt="WhatsApp" width="20" height="20"></a>
+                <a href="#" target="_blank" class="me-2"><img class="social-icon" src="/Assets/img/Index/twitter.png" alt="Twitter" width="20" height="20"></a>
+                <a href="#" target="_blank" class="me-2"><img class="social-icon" src="/Assets/img/Index/instagram.png" alt="Instagram" width="20" height="20"></a>
             </div>
         </section>
         
-        <section class="quick-links-section">
-            <h2>Quick Links</h2>
-            <div class="quick-links">
-                <a href="Bps_Marketing_Pty_Ltd.html">Home</a>
-                <a href="About-us.html">About Us</a>
-                <a href="#">Services</a>
-                <a href="Contact-Us.html">Contact</a>
+        <section class="quick-links-section mt-5">
+            <h2 class="text-center">Quick Links</h2>
+            <div class="d-flex justify-content-center">
+                <a href="Bps_Marketing_Pty_Ltd.html" class="me-2">Home</a>
+                <a href="About-us.html" class="me-2">About Us</a>
+                <a href="#" class="me-2">Services</a>
+                <a href="Contact-Us.html" class="me-2">Contact</a>
             </div>
         </section>
     </main>
-   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
